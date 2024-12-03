@@ -1,6 +1,5 @@
 import { getCargoShips, getHaulers } from "./database.js"
 
-const cargoShips = getCargoShips()
 
 document.addEventListener(
     "click",
@@ -9,28 +8,21 @@ document.addEventListener(
 
         // Was a hauler list item clicked?
         if (itemClicked.dataset.type === "hauler") {
+            // Get the id of the hauler clicked
             const clickedHaulerId = itemClicked.dataset.id
+            // Start a counter variable at 0
             let shipCounter = 0
+            const cargoShips = getCargoShips()
+            // Iterate all of the shipping ships
             for (const cargoShip of cargoShips) {
+                // Does the haulerId foreign key match the id?
                 if (cargoShip.haulerid === parseInt(clickedHaulerId)) {
+                    // Increase the counter by 1
                     shipCounter++
                 }
             }
-            window.alert(shipCounter)
+            window.alert(`This hauler is carrying ${shipCounter} cargo ships`)
         }
-
-
-
-        // Get the id of the hauler clicked
-
-        // Start a counter variable at 0
-
-        // Iterate all of the shipping ships
-
-        // Does the haulerId foreign key match the id?
-
-        // Increase the counter by 1
-
     }
 )
 
