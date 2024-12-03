@@ -17,7 +17,12 @@ const database = {
         { id: 2, name: "Oceanic Overlord", haulerid: 3 },
         { id: 3, name: "Crate Escape", haulerid: 2 },
         { id: 4, name: "Dock and Roll", haulerid: 1 },
-        { id: 5, name: "Ship Happens", haulerid: 4 }
+        { id: 5, name: "Ship Happens", haulerid: 4 },
+        { id: 6, name: "Bulk You Up", haulerid: 4 },
+        { id: 7, name: "Sea Ya Later", haulerid: 2 },
+        { id: 8, name: "Dock Vader", haulerid: 5 },
+        { id: 9, name: "Floaty McBoatface", haulerid: 3 },
+        { id: 10, name: "Ship Happens Again", haulerid: 1 }
     ]
 }
 
