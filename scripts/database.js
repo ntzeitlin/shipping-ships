@@ -6,18 +6,18 @@ const database = {
         { id: 4, location: "Antwerp, Belgium", volume: "12.04" }
     ],
     haulers: [
-        { id: 1, name: "bigboi" },
-        { id: 2, name: "s.s. carry" },
-        { id: 3, name: "igotyou" },
-        { id: 4, name: "andmyax" },
-        { id: 5, name: "samwise" }
+        { id: 1, name: "Ship Lifter 5000" },
+        { id: 2, name: "The Mother Ship" },
+        { id: 3, name: "Cargoception" },
+        { id: 4, name: "Haul Yeah" },
+        { id: 5, name: "S.S. I Heard You Like Ships" }
     ],
     cargoShips: [
-        { id: 1, name: "Wandering Whale" },
-        { id: 2, name: "Oceanic Overlord" },
-        { id: 3, name: "Crate Escape" },
-        { id: 4, name: "Dock and Roll" },
-        { id: 5, name: "Ship Happens" }
+        { id: 1, name: "Wandering Whale", haulerid: 2 },
+        { id: 2, name: "Oceanic Overlord", haulerid: 2 },
+        { id: 3, name: "Crate Escape", haulerid: 2 },
+        { id: 4, name: "Dock and Roll", haulerid: 2 },
+        { id: 5, name: "Ship Happens", haulerid: 2 }
     ]
 }
 
