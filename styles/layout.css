@@ -1,0 +1,10 @@
+body {
+    background-color: lightblue;
+}
+
+li {
+    background-color: whitesmoke;
+    margin-bottom: 5px;
+    list-style: none;
+    padding: 3px;
+}
