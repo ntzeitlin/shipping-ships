@@ -11,7 +11,7 @@ li {
     margin-bottom: 5px;
     margin-right: 2em;
     list-style: none;
-    padding: 3px;
+    padding: 5px;
 }
 
 li:hover {
@@ -19,5 +19,6 @@ li:hover {
 }
 
 article {
-    border: 2px dotted blueviolet
+    border: 2px dotted blueviolet;
+    margin-bottom: 1em;
 }
